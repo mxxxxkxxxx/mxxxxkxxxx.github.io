@@ -4,6 +4,14 @@
         <title>iframe (root) - iframe1 - iframe2</title>
     </head>
     <body>
-        iframe (root) - iframe1 - iframe2
+        iframe (root) - iframe1 - iframe2a
+        
+        <script type="text/javascript">
+          const load = async () => {
+            const res = await fetch("https://www.yahoo.co.jp");
+            alert(res)
+          }
+          load().then()
+        </script>
     </body>
 </html>
